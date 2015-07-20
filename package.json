@@ -1,0 +1,33 @@
+{
+  "author": "Mark Vayngrib <mark.vayngrib@lablz.com> (http://github.com/mvayngrib)",
+  "bugs": {
+    "url": "https://github.com/mvayngrib/git-untracked/issues"
+  },
+  "description": "get a list of files not tracked by git",
+  "devDependencies": {
+    "pre-commit": "latest",
+    "standard": "latest",
+    "tape": "latest"
+  },
+  "homepage": "https://github.com/mvayngrib/git-untracked",
+  "keywords": [
+    "git",
+    "untracked"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "bin": "./cmd.js",
+  "name": "git-untracked",
+  "pre-commit": [
+    "style"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mvayngrib/git-untracked.git"
+  },
+  "scripts": {
+    "style": "standard",
+    "test": "node test"
+  },
+  "version": "1.0.0"
+}
